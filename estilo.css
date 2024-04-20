@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+*
+{
+	box-sizing: border-box;
+}
+
+html
+{
+	font-size: 100%;
+}
+
+body
+{
+	margin: 0 auto; 	
+	background-color: #f4f4f4;
+}
+h1
+{
+	font-size: 3.5vw;
+	color: rgb(0, 49, 71);
+	padding: 2rem;
+	font-family: 'Montserrat', sans-serif;
+	text-align: center;
+}
+
+h2
+{
+	font-size: 2.8vw;
+	color: rgb(0, 49, 71);
+	padding: 1rem;
+	font-family: 'Roboto Mono', monospace;
+	text-align: center;
+}
+
+p
+{
+	font-size: 1.6rem;
+	padding: 0.5rem;
+	line-height: 1.3em;
+	font-family: 'Roboto Mono', monospace;
+	color: #003147;
+}
+
+header{
+    position: fixed;
+	top: 0;
+	width: 100%;
+}
+
+.menu 
+{
+	
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	text-align: center;
+	background-color: #ebebeb;
+	text-transform: uppercase;
+}
+
+.menuEsquerda
+{
+	display: flex;
+	align-items: center;
+	padding: 0.5em;
+ }
+
+.logo img 
+{
+	float: left;
+	margin-right: 3em;
+	max-width: 15em;
+}
+
+.menuDireita ul 
+{
+	float: right;
+	margin-right: 1.2em;
+}
+
+.menuDireita ul li 
+{
+	display: inline-block;
+}
+
+.menuDireita ul li a
+{
+	padding: 0.5em 0.9em;
+	text-decoration: none;
+	color: #003147;
+	font-size: 1.0em;
+	font-family: 'Roboto Mono', monospace;
+}
+
+.menuDireita ul li a:hover 
+{
+	color: #fd9300dc;
+	transition: 0.4s;
+}
+
+.banner
+{
+	background: url('./imagens/enfermeiros.png') no-repeat center center;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	height: 55vw;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.imagem
+{
+	max-width: 80%;
+	margin: 15vw auto;
+	gap: 10px;
+	vertical-align: center;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+.imagem p
+{
+	font-size: 1.3vw;
+	max-width: 60%;
+	float: right;
+	margin-top: 1em;
+	margin-right: 2em;
+	color: black;
+}
+
+.imagem img
+{
+	width: 20%;
+	border-radius: 50%;
+	margin-left: 4%;
+	border: solid .1em #003147;
+}
+
+.imagem a
+{
+	text-decoration: none;
+	color: black;
+}
+
+.imagem a:hover
+{
+	color: #fd9300dc;
+	transition: 0.4s;
+}
+
+
+.sites a
+{
+	padding: 0.5em 0.9em;
+	text-decoration: none;
+	color: black;
+	font-size: 1.0em;
+	font-family: 'Roboto Mono', monospace;
+}
+
+.sites a:hover 
+{
+	color: #fd9300dc;
+	transition: 0.4s;
+}
+
+.sites p
+{
+	color: black;
+	text-align: center;
+	padding: 1em 0em 0em 0em;
+}
+
+.rodape
+{
+	background-color: #ebebeb;
+	margin-top: 5em;
+	padding: 1em;
+}
+
+.rodape p
+{
+	color: 003147;
+	text-align: center;
+	font-size: 1vw;
+}
